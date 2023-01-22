@@ -1,0 +1,29 @@
+#container{
+    display:flex ;
+    height: 600px;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+#main{
+ width: 50%;
+ height: 600px;
+   margin: auto;
+   margin-top: 5%;
+   background-color: aquamarine;
+}
+
+#side{
+    width:25%;
+    height:50%;
+    margin: auto;
+}
+
+h1{
+    display: flex;
+    height: 20%;
+    align-self: space-between;
+    justify-self: center;
+    text-align: center;
+
+}
